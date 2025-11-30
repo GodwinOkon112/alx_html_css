@@ -1,0 +1,295 @@
+*{
+  font-family: 'Josefin Sans', serif;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+
+
+#people{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.img{
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img img{
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+
+}
+.img h3{
+  font-size: 1rem;
+}
+.img p{
+  font-size: 10px;
+}
+
+ main {
+  width: 1351px;
+  margin: 0 auto;
+}
+
+#learn{
+  color: #C271FF;
+}
+
+ #background {
+  background-image: url(./images/Object.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;  
+  max-width: 100%;
+  min-height: 1093px;
+  color: white;
+}
+
+nav {
+  width: 1103.41px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+
+ .intro-textbox{
+    width: 684px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.intro-textbox h1{
+    font-size: 100px;
+}
+ button{
+    color: white;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #C271FF;
+    outline: none;
+    border: none;
+    padding-block: .7rem;
+    padding-inline: 1.5rem;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.span-class{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.pros{
+  margin: 0 auto;
+    margin-top: 15rem;
+}
+
+.pros h2{
+  text-align: center;
+  font-weight: 300;
+}
+
+.lauging-guy{
+  background-color: #C271FF;
+  height: 392px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.lauging-guy blockquote{
+  color: white;
+  font-size: 22px;
+  width: 750px;
+}
+.lauging-guy h3{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.lauging-guy p{
+  color: white;
+  font-size: 22px;
+  width: 750px;
+}
+
+
+.tutorial{
+  width: 1228px;
+  /* height: 450px; */
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-bottom: 7rem;
+}
+.tutorial h2{
+  text-align: center;
+font-weight: lighter;
+padding-block: 3rem;
+  
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+.lower-img{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.all-smile{
+  width: 20%;
+}
+.all-smile h3{
+ font-weight: 700;
+ color: #071629;
+ font-size: 16px;
+}
+.all-smile p{
+ font-weight: 400;
+ color: dimgrey;
+ font-size: 14px;
+}
+
+
+.rating{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lower-img img
+{
+  width: 40px;
+}
+
+.rating img
+{
+  width: 100px;
+}
+
+
+.lower-img h4
+{
+  font-size: 18px;
+}
+
+
+
+.membership{
+  background-color:#071629 ;
+  color: white;
+  text-align: center;
+  padding-block: 2rem;
+}
+
+.membership-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+   width: 1228px;
+  margin: 0 auto;
+}
+.membership-flex h3{
+  font-size: 18px;
+  font-weight: 600;
+}
+.membership-flex p{
+  font-size: 12px;
+  font-weight: 400;
+ color: rgb(218, 212, 212);
+
+}
+.membership-flex .box{
+  margin-block: 3rem;
+  width: 200px;
+}
+
+.fqa{
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+.one, .two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  padding-block: 2rem;
+  font-size: 13px;
+  text-align: left;
+  line-height: 2;
+ color: rgb(129, 126, 126);
+
+}
+
+.fqa h3{
+ font-weight: 800;
+ color: #071629;
+ font-size: 16px;
+}
+
+.fqa-section h2{
+  text-align: center;
+  padding-block: 3rem;
+}
+
+footer{
+  background-color: #071629;
+}
+footer p{
+ color: rgb(129, 126, 126);
+  text-align: center;
+}
+
+.my-foooter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 249px;
+}
