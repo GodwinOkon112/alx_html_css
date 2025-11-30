@@ -1,0 +1,30 @@
+body, main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(121, 130, 138);
+    text-align: center;
+    height: 80px;   
+    margin-bottom: 20px;
+
+}
