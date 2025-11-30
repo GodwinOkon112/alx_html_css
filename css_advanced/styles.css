@@ -293,3 +293,13 @@ footer p{
   align-items: center;
   height: 249px;
 }
+
+i {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+i:hover {
+  color: #007bff;
+}
