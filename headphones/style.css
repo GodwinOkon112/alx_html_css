@@ -1,0 +1,196 @@
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+header {
+  min-height: 650px;
+  max-width: 100%;
+  background-image: url(./images/headphones_hero_1.jpg);
+  color: white;
+}
+
+.img-container {
+  width: 160px;
+}
+
+nav {
+  width: 1000px;
+  margin: 0 auto;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+}
+
+ul li a {
+  font-size: 14px;
+}
+
+.text-box-container {
+  width: 630px;
+  margin: 0 auto;
+  margin-top: 15rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.text-box-container h1 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.text-box-container h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button {
+  color: white;
+  background-color: #ff6565;
+  text-align: center;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: lighter;
+  padding-top: 1rem;
+}
+
+.second_section {
+  margin: 0 auto;
+  margin-block: 5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 7rem;
+}
+.textbox {
+  width: 630px;
+  margin: 0 auto;
+  text-align: center;
+}
+.flex_images {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-basis: 20%;
+}
+
+.third_section {
+  min-height: 550px;
+  max-width: 100%;
+  background-image: url(./images/headphones_hero_2.jpg);
+  color: white;
+  margin: 0 auto;
+  margin-block: 5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 7rem;
+}
+
+.pentagaon_img {
+  width: 150px;
+  height: 150px;
+  background-image: url(./images/pentagone.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pentagaon_img h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 0.2;
+  margin-top: 2rem;
+}
+.pentagaon_img p {
+  font-size: 12px;
+}
+
+.img1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-page {
+  width: 530px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-block: 5rem;
+}
+
+.contact-page p {
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+}
+.contact-page h2 {
+  font-size: 32px;
+  margin-bottom: 2rem;
+}
+.contact-page button {
+  margin-top: 2rem;
+}
+.contact-page input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+}
+
+footer {
+  height: 230px;
+  background-color: #071629;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.socials_container{
+    display: flex;
+    justify-content: space-around;
+    width: 1400px;
+    align-items: center;
+}
+footer p{
+    color: #ccc;
+    font-size: .7rem;
+}
